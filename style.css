@@ -19,3 +19,53 @@ table {
 	margin: 15px;
 	font-size: 20px;
 }
+
+.article-detail-table{
+	margin: 15px;
+	font-size: 20px;
+}
+.article-detail-table td{
+	background:#0f0;
+}
+.article-detail-table p{
+	background:#ff0;
+}
+
+
+
+/*
+CLASSES
+REUSABLE ON PAGE
+*/
+.page-title{
+	color:red;
+	font-size:20px;
+}
+.page-title-large{
+	font-size:40px;
+}
+.page-title-papyrus{
+	font-family: 'Papyrus';
+}
+.article-detail-table{
+	width:100px;
+}
+
+/*
+?? google this 'concatenated css class why'
+*/
+.page-title.page-title-large{
+	color:red;
+	font-size:20px;
+}
+
+/*
+IDS
+UNIQUE. ONCE PER PAGE.
+*/
+#site-header{
+
+}
+
+/*concatenated classes*/
+
