@@ -24,11 +24,13 @@ table {
 	margin: 15px;
 	font-size: 20px;
 }
+
+
 .article-detail-table td{
-	background:#0f0;
+	background:$brand_green;
 }
 .article-detail-table p{
-	background:#ff0;
+	background:$brand_green;
 }
 
 
