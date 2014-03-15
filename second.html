@@ -3,20 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>Learning Page V2</title>
+
 	<link href="style2.css" media="screen" rel="stylesheet" />
 </head>
-	<body background="https://lh5.googleusercontent.com/-69Ic_wME8dY/Un0v9E2vIgI/AAAAAAAAGyo/mcQl0KsyTas/s0-d/Space%2BBackground.jpg">
+	<body>
+
 		<header class="site-header">
 			<h1>Header</h1>
 		</header>
-
-		<img src="http://www.seopher.com/images/internet.jpg"
-			class="align-right frame" alt="UH OH :)">
-		</img>
+		<div class="image-wrapper align-right ">		
+			<img src="http://www.seopher.com/images/internet.jpg" class="frame" alt="UH OH :)" />
+		</div>
 		<ul class="side-list-style">
-			<li><a class="list-text-style" href="default.asp">Home</a></li>
+			<li><a class="list-text-style" href="http://google.com" target="_blank">Home</a></li>
 			<li><a class="list-text-style" href="news.asp">News</a></li>
 			<li><a class="list-text-style" href="contact.asp">Contact</a></li>
 			<li><a class="list-text-style" href="about.asp">About</a></li>
 		</ul>
 
+	<!-- You have to close all tags. This is important! The browser won't know what to do and will make it up, to mixed results. -->
+
+	</body>
+</html>
